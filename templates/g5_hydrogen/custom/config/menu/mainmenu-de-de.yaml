@@ -1,0 +1,9 @@
+ordering:
+  home-de-de: ''
+items:
+  home-de-de:
+    id: 109
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    icon: 'fa fa-home fa-lg'

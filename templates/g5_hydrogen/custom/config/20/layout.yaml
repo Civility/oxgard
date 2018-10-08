@@ -1,0 +1,117 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: oxgard
+  timestamp: 1480408258
+layout:
+  /container-header/:
+    -
+      -
+        'sidebar-header 25': {  }
+      -
+        'position-header 75': {  }
+  /container-navigation/:
+    -
+      -
+        'navigation 25': {  }
+      -
+        'position-navigation 75': {  }
+  main: {  }
+  /container-footer/:
+    -
+      -
+        'sidebar-footer 25': {  }
+      -
+        'position-footer 75': {  }
+  offcanvas: {  }
+structure:
+  sidebar-header:
+    type: section
+    subtype: aside
+    inherit:
+      outline: '19'
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: '1'
+  position-header:
+    type: section
+    subtype: nav
+    inherit:
+      outline: '19'
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: '1'
+  container-header:
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    inherit:
+      outline: '19'
+      include:
+        - attributes
+        - block
+        - children
+  position-navigation:
+    type: section
+    subtype: aside
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: 1
+  container-navigation:
+    attributes:
+      boxed: '2'
+      class: ''
+      extra: {  }
+  main:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  sidebar-footer:
+    type: section
+    subtype: aside
+    inherit:
+      outline: '19'
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: '1'
+  position-footer:
+    type: section
+    subtype: nav
+    inherit:
+      outline: '19'
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: '1'
+  container-footer:
+    attributes:
+      boxed: ''
+      class: ''
+      extra: {  }
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children

@@ -1,0 +1,124 @@
+name: '17'
+timestamp: 1484646702
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: oxgard
+  timestamp: 1480408258
+positions: {  }
+sections:
+  sidebar-header: Sidebar-header
+  position-navigation: Position-navigation
+  sidebar-footer: Sidebar-footer
+  position-header: Position-header
+  position-footer: Position-footer
+  navigation: Navigation
+  main: Main
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-5558: Logo
+    logo-3782: Logo
+  custom:
+    custom-7924: Telophone
+    custom-4757: RsForm
+    custom-7969: constructor
+    custom-7076: catalog
+    custom-1828: text
+    custom-6501: text
+    custom-7720: Telophone
+    custom-2623: RsForm
+    custom-1493: constructor
+    custom-8096: catalog
+    custom-7689: oferta
+  module:
+    position-module-4217: Searce
+    position-module-2564: Languach
+    position-module-1055: collback
+    position-module-3883: slider-top
+    position-module-3633: slider-bottom
+  menu:
+    menu-3916: Menu
+    menu-2032: Menu
+  contentarray:
+    contentarray-4849: Contentarray
+  social:
+    social-8045: Social
+  spacer:
+    spacer-9131: Spacer
+    spacer-7860: Spacer
+    spacer-6923: Spacer
+    spacer-7012: Spacer
+    spacer-9382: Spacer
+    spacer-5983: Spacer
+    spacer-6566: Spacer
+    spacer-1530: Spacer
+    spacer-4522: Spacer
+    spacer-2289: Spacer
+    spacer-4574: Spacer
+    spacer-5969: Spacer
+    spacer-9851: Spacer
+    spacer-4106: Spacer
+  sample:
+    sample-3544: 'Sample Content'
+    sample-1210: 'Sample Content'
+    sample-6729: 'Sample Content'
+    sample-6481: 'Sample Content'
+    sample-9014: 'Sample Content'
+    sample-6937: 'Sample Content'
+  totop:
+    totop-3296: Totop
+  copyright:
+    copyright-4864: Copyright
+  mobile-menu:
+    mobile-menu-1963: Mobile-menu
+inherit:
+  default:
+    logo-5558: logo-5230
+    custom-7924: custom-9008
+    custom-4757: custom-2084
+    position-module-4217: position-module-8309
+    position-module-2564: position-module-1181
+    menu-3916: menu-7825
+    contentarray-4849: contentarray-6079
+    custom-7969: custom-8315
+    custom-7076: custom-2278
+    social-8045: social-1677
+    position-module-1055: position-module-5257
+    position-navigation: position-navigation
+    logo-3782: logo-3900
+    copyright-4864: copyright-6774
+    menu-2032: menu-9703
+    custom-7720: custom-1744
+    custom-2623: custom-3954
+    custom-1493: custom-8650
+    custom-8096: custom-3995
+    custom-7689: custom-2086
+    offcanvas: offcanvas
+    mobile-menu-1963: mobile-menu-1074
+  13:
+    position-module-3883: position-module-9311
+    spacer-9131: spacer-6249
+    custom-1828: custom-1104
+    spacer-7860: spacer-1969
+    spacer-6923: spacer-9283
+    sample-3544: sample-2309
+    spacer-7012: spacer-7283
+    sample-1210: sample-7050
+    spacer-9382: spacer-2373
+    sample-6729: sample-6015
+    spacer-5983: spacer-7219
+    spacer-6566: spacer-4892
+    sample-6481: sample-6500
+    spacer-1530: spacer-7508
+    sample-9014: sample-9163
+    spacer-4522: spacer-8474
+    sample-6937: sample-9635
+    spacer-2289: spacer-8100
+    spacer-4574: spacer-9684
+    custom-6501: custom-8023
+    spacer-5969: spacer-9572
+    spacer-9851: spacer-8706
+    position-module-3633: position-module-8423
+    spacer-4106: spacer-6871
+    totop-3296: totop-6036

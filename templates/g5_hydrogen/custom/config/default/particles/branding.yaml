@@ -1,0 +1,4 @@
+enabled: '1'
+content: '<a href="">Соглашение об использовании</a>'
+css:
+  class: branding

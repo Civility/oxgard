@@ -1,0 +1,9 @@
+ordering:
+  home-es-es: ''
+items:
+  home-es-es:
+    id: 111
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    icon: 'fa fa-home fa-lg'

@@ -1,0 +1,88 @@
+name: 18
+timestamp: 1484646702
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: oxgard
+  timestamp: 1480408258
+positions: {  }
+sections:
+  sidebar-header: Sidebar-header
+  position-navigation: Position-navigation
+  sidebar-footer: Sidebar-footer
+  position-header: Position-header
+  position-footer: Position-footer
+  navigation: Navigation
+  main: Main
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-3400: Logo
+    logo-5102: Logo
+  custom:
+    custom-5901: Telophone
+    custom-4787: RsForm
+    custom-9597: constructor
+    custom-2408: catalog
+    custom-1048: Telophone
+    custom-8424: RsForm
+    custom-7264: constructor
+    custom-3321: catalog
+    custom-9361: oferta
+  module:
+    position-module-9249: Searce
+    position-module-3259: Languach
+    position-module-1236: collback
+    position-module-5018: Breadcrumbs
+  menu:
+    menu-1641: Menu
+    menu-8266: Menu
+  contentarray:
+    contentarray-3680: Contentarray
+  social:
+    social-7272: Social
+  copyright:
+    copyright-9194: Copyright
+  messages:
+    system-messages-8544: 'System Messages'
+  content:
+    system-content-4814: 'Page Content'
+  totop:
+    totop-2680: Totop
+  mobile-menu:
+    mobile-menu-7617: Mobile-menu
+inherit:
+  17:
+    sidebar-header: sidebar-header
+    position-header: position-header
+    navigation: navigation
+    sidebar-footer: sidebar-footer
+    position-footer: position-footer
+    logo-3400: logo-5558
+    custom-5901: custom-7924
+    custom-4787: custom-4757
+    position-module-9249: position-module-4217
+    position-module-3259: position-module-2564
+    menu-1641: menu-3916
+    contentarray-3680: contentarray-4849
+    custom-9597: custom-7969
+    custom-2408: custom-7076
+    social-7272: social-8045
+    position-module-1236: position-module-1055
+    logo-5102: logo-3782
+    copyright-9194: copyright-4864
+    menu-8266: menu-2032
+    custom-1048: custom-7720
+    custom-8424: custom-2623
+    custom-7264: custom-1493
+    custom-3321: custom-8096
+    custom-9361: custom-7689
+  default:
+    position-navigation: position-navigation
+    main: main
+    offcanvas: offcanvas
+    system-messages-8544: system-messages-5011
+    position-module-5018: position-module-7248
+    system-content-4814: system-content-7550
+    totop-2680: totop-8112
+    mobile-menu-7617: mobile-menu-1074

@@ -1,0 +1,25 @@
+enabled: '1'
+article:
+  display:
+    image:
+      enabled: ''
+    text:
+      type: intro
+      limit: '70'
+      formatting: text
+    title:
+      enabled: show
+    date:
+      enabled: published
+      format: 'j F Y'
+    read_more:
+      enabled: ''
+    author:
+      enabled: ''
+    category:
+      enabled: ''
+    hits:
+      enabled: ''
+css:
+  class: ''
+extra: {  }

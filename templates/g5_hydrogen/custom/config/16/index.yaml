@@ -1,0 +1,88 @@
+name: 16
+timestamp: 1484647090
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: oxgard
+  timestamp: 1480408258
+positions: {  }
+sections:
+  sidebar-header: Sidebar-header
+  position-navigation: Position-navigation
+  sidebar-footer: Sidebar-footer
+  position-header: Position-header
+  position-footer: Position-footer
+  navigation: Navigation
+  main: Main
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-9544: Logo
+    logo-2641: Logo
+  contentarray:
+    contentarray-9836: Contentarray
+  custom:
+    custom-4888: constructor
+    custom-6544: catalog
+    custom-8178: Telophone
+    custom-9468: RsForm
+    custom-8195: constructor
+    custom-9355: catalog
+    custom-6327: oferta
+    custom-2840: Telophone
+    custom-1800: RsForm
+  social:
+    social-6336: Social
+  module:
+    position-module-5972: collback
+    position-module-8097: Searce
+    position-module-4774: Languach
+    position-module-1758: Breadcrumbs
+  copyright:
+    copyright-5437: Copyright
+  menu:
+    menu-9295: Menu
+    menu-4105: Menu
+  messages:
+    system-messages-9959: 'System Messages'
+  content:
+    system-content-4893: 'Page Content'
+  totop:
+    totop-6802: Totop
+  mobile-menu:
+    mobile-menu-4954: Mobile-menu
+inherit:
+  14:
+    sidebar-header: sidebar-header
+    navigation: navigation
+    sidebar-footer: sidebar-footer
+    position-footer: position-footer
+    logo-9544: logo-1771
+    contentarray-9836: contentarray-2107
+    custom-4888: custom-1128
+    custom-6544: custom-5574
+    social-6336: social-5783
+    position-module-5972: position-module-8175
+    logo-2641: logo-9454
+    copyright-5437: copyright-5965
+    menu-9295: menu-2671
+    custom-8178: custom-6983
+    custom-9468: custom-7208
+    custom-8195: custom-3401
+    custom-9355: custom-8541
+    custom-6327: custom-3875
+  default:
+    position-header: position-header
+    position-navigation: position-navigation
+    main: main
+    offcanvas: offcanvas
+    custom-2840: custom-9008
+    custom-1800: custom-2084
+    position-module-8097: position-module-8309
+    position-module-4774: position-module-1181
+    menu-4105: menu-7825
+    system-messages-9959: system-messages-5011
+    position-module-1758: position-module-7248
+    system-content-4893: system-content-7550
+    totop-6802: totop-8112
+    mobile-menu-4954: mobile-menu-1074

@@ -1,0 +1,260 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: oxgard
+  timestamp: 1480408258
+layout:
+  /container-header/:
+    -
+      -
+        'sidebar-header 25':
+          -
+            - logo-5230
+      -
+        'position-header 75':
+          -
+            - 'custom-9008 40'
+            - 'custom-2084 10'
+            - 'position-module-8309 25'
+            - 'position-module-1181 25'
+          -
+            - menu-7825
+  /container-navigation/:
+    -
+      -
+        'navigation 25':
+          -
+            - contentarray-6079
+          -
+            - custom-8315
+          -
+            - custom-2278
+          -
+            - position-module-2478
+          -
+            - social-1677
+          -
+            - position-module-5257
+      -
+        'position-navigation 75': {  }
+  /main/:
+    -
+      - system-messages-5011
+    -
+      - position-module-7248
+    -
+      - system-content-7550
+    -
+      - totop-8112
+  /container-footer/:
+    -
+      -
+        'sidebar-footer 25':
+          -
+            - logo-3900
+          -
+            - copyright-6774
+      -
+        'position-footer 75':
+          -
+            - menu-9703
+          -
+            - 'custom-1744 25'
+            - 'custom-3954 25'
+            - 'custom-8650 25'
+            - 'custom-3995 25'
+          -
+            - custom-2086
+  offcanvas:
+    -
+      - mobile-menu-1074
+structure:
+  sidebar-header:
+    type: section
+    subtype: aside
+    block:
+      fixed: 1
+  position-header:
+    type: section
+    subtype: nav
+    block:
+      fixed: 1
+  container-header:
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      class: ''
+    block:
+      variations: 'nomarginall nopaddingall'
+  position-navigation:
+    type: section
+    subtype: aside
+    block:
+      fixed: 1
+  container-navigation:
+    attributes:
+      boxed: '2'
+      class: ''
+      extra: {  }
+  main:
+    attributes:
+      boxed: ''
+      class: ''
+  sidebar-footer:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+    block:
+      variations: nopaddingall
+      fixed: '1'
+  position-footer:
+    type: section
+    subtype: nav
+    attributes:
+      class: ''
+    block:
+      variations: nopaddingall
+      fixed: '1'
+  container-footer:
+    attributes:
+      boxed: ''
+      class: ''
+      extra: {  }
+content:
+  logo-5230:
+    block:
+      variations: center
+  custom-9008:
+    title: Telophone
+    attributes:
+      html: '<big>+7 (812) <b>366-15-94</b></big>'
+    block:
+      class: phone
+      variations: center
+  custom-2084:
+    title: RsForm
+    attributes:
+      html: '<a href="/oxgard/ru/kontakty/zadat-vopros " target="_blank"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>'
+    block:
+      class: mail
+      variations: center
+  position-module-8309:
+    title: Searce
+    attributes:
+      module_id: '93'
+      key: searce
+    block:
+      variations: center
+  position-module-1181:
+    title: Languach
+    attributes:
+      module_id: '94'
+      key: languach
+    block:
+      variations: center
+  contentarray-6079:
+    attributes:
+      enabled: 0
+      article:
+        filter:
+          categories: ''
+          articles: ''
+          featured: include
+        limit:
+          total: '2'
+          columns: '2'
+          start: '0'
+        sort:
+          orderby: publish_up
+          ordering: ASC
+  custom-8315:
+    title: constructor
+    attributes:
+      html: "\t    <a class=\"btn btn-link btn-mini\" href=\"images\\service\\construktor\" target=\"_blank\">\n\t<i class=\"fa fa-pencil-square-o fa-4x  fa-fw\" aria-hidden=\"true\"></i>\n\t<p>Онлайн <br/>конструктор</p>\n\t  </a>"
+    block:
+      class: constructor
+  custom-2278:
+    title: catalog
+    attributes:
+      html: "\t  \t  <a class=\"btn btn-link btn-mini\" href=\"images/service/catalog/\" target=\"_blank\">\n<i class=\"fa fa-object-group fa-3x  fa-fw\" aria-hidden=\"true\"></i>\n<p>Интерактивный <br/> каталог</p>\n\t  </a>"
+    block:
+      class: catalog
+  position-module-2478:
+    title: price
+    attributes:
+      module_id: '110'
+      key: price
+  position-module-5257:
+    title: collback
+    attributes:
+      enabled: 0
+      module_id: '102'
+      key: collback
+    block:
+      id: collback
+  position-module-7248:
+    title: Breadcrumbs
+    attributes:
+      module_id: '17'
+      chrome: model-g
+      key: breadcrumbs
+    block:
+      variations: 'nomarginall nopaddingall'
+  system-content-7550:
+    block:
+      id: page_content
+  totop-8112:
+    block:
+      variations: 'nomarginall nopaddingall'
+  logo-3900:
+    attributes:
+      image: 'gantry-media://logo-footer.png'
+    block:
+      variations: center
+  copyright-6774:
+    block:
+      variations: center
+  menu-9703:
+    attributes:
+      maxLevels: '1'
+      renderTitles: '1'
+      mobileTarget: '0'
+    block:
+      variations: center
+  custom-1744:
+    title: Telophone
+    attributes:
+      html: '<b>+7 (812) 366-15-94</b>'
+    block:
+      variations: center
+  custom-3954:
+    title: RsForm
+    attributes:
+      html: "\t  \t  <a class=\"btn btn-link btn-mini\" href=\"/oxgard/ru/kontakty/zadat-vopros\" target=\"_blank\">\n<i class=\"fa fa-envelope fa-2x fa-fw\" aria-hidden=\"true\"></i>\n\t<p>Форма обратной связи</p>\n\t  </a>"
+    block:
+      class: mail
+      variations: center
+  custom-8650:
+    title: constructor
+    attributes:
+      html: "\t    <a class=\"btn btn-link btn-mini\" href=\"images\\service\\construktor\" target=\"_blank\"\">\n\t<i class=\"fa fa-pencil-square-o fa-4x  fa-fw\" aria-hidden=\"true\"></i>\n\t<p>Онлайн <br/>конструктор</p>\n\t  </a>"
+    block:
+      class: constructor
+      variations: center
+  custom-3995:
+    title: catalog
+    attributes:
+      html: "\t  \t  <a class=\"btn btn-link btn-mini\" href=\"images/service/catalog/\" target=\"_blank\" >\n<i class=\"fa fa-object-group fa-3x  fa-fw\" aria-hidden=\"true\"></i>\n<p>Интерактивный <br/> каталог</p>\n\t  </a>"
+    block:
+      class: catalog
+      variations: center
+  custom-2086:
+    title: oferta
+    attributes:
+      html: '<i>Вся представленная на сайте информация, касающаяся технических характеристик, стоимости товаров и услуг, носит информационный характер и ни при каких условиях не является публичной офертой.</i>'
+    block:
+      class: oferta
+      variations: 'nomarginall nopaddingall center'

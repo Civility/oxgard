@@ -1,0 +1,116 @@
+name: '19'
+timestamp: 1484646749
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: oxgard
+  timestamp: 1480408258
+positions: {  }
+sections:
+  sidebar-header: Sidebar-header
+  position-navigation: Position-navigation
+  sidebar-footer: Sidebar-footer
+  position-header: Position-header
+  position-footer: Position-footer
+  navigation: Navigation
+  main: Main
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-6878: Logo
+    logo-8500: Logo
+  custom:
+    custom-7428: Telophone
+    custom-6880: RsForm
+    custom-2445: constructor
+    custom-1218: catalog
+    custom-5377: text
+    custom-8317: text
+    custom-3726: Telophone
+    custom-1458: RsForm
+    custom-2807: constructor
+    custom-9568: catalog
+    custom-8405: oferta
+  module:
+    position-module-3826: Searce
+    position-module-7183: Languach
+    position-module-4724: collback
+    position-module-7956: slider-top
+    position-module-1835: slider-bottom
+  menu:
+    menu-5599: Menu
+    menu-4700: Menu
+  contentarray:
+    contentarray-1557: Contentarray
+  social:
+    social-1783: Social
+  spacer:
+    spacer-5418: Spacer
+    spacer-2706: Spacer
+    spacer-5301: Spacer
+    spacer-9940: Spacer
+    spacer-8334: Spacer
+    spacer-4083: Spacer
+    spacer-3937: Spacer
+    spacer-1669: Spacer
+    spacer-2285: Spacer
+    spacer-6316: Spacer
+    spacer-4942: Spacer
+    spacer-8444: Spacer
+  sample:
+    sample-9042: 'Sample Content'
+    sample-6813: 'Sample Content'
+    sample-8094: 'Sample Content'
+    sample-8479: 'Sample Content'
+  totop:
+    totop-1323: Totop
+  copyright:
+    copyright-4728: Copyright
+  mobile-menu:
+    mobile-menu-1290: Mobile-menu
+inherit:
+  default:
+    logo-6878: logo-5230
+    custom-7428: custom-9008
+    custom-6880: custom-2084
+    position-module-3826: position-module-8309
+    position-module-7183: position-module-1181
+    menu-5599: menu-7825
+    contentarray-1557: contentarray-6079
+    custom-2445: custom-8315
+    custom-1218: custom-2278
+    social-1783: social-1677
+    position-module-4724: position-module-5257
+    position-navigation: position-navigation
+    logo-8500: logo-3900
+    copyright-4728: copyright-6774
+    menu-4700: menu-9703
+    custom-3726: custom-1744
+    custom-1458: custom-3954
+    custom-2807: custom-8650
+    custom-9568: custom-3995
+    custom-8405: custom-2086
+    offcanvas: offcanvas
+    mobile-menu-1290: mobile-menu-1074
+  13:
+    position-module-7956: position-module-9311
+    spacer-5418: spacer-6249
+    custom-5377: custom-1104
+    spacer-2706: spacer-1969
+    spacer-5301: spacer-9283
+    sample-9042: sample-2309
+    spacer-9940: spacer-2373
+    sample-6813: sample-6015
+    spacer-8334: spacer-7219
+    spacer-4083: spacer-4892
+    sample-8094: sample-6500
+    spacer-3937: spacer-8474
+    sample-8479: sample-9635
+    spacer-1669: spacer-8100
+    spacer-2285: spacer-9684
+    custom-8317: custom-8023
+    spacer-6316: spacer-9572
+    spacer-4942: spacer-8706
+    position-module-1835: position-module-8423
+    spacer-8444: spacer-6871
+    totop-1323: totop-6036

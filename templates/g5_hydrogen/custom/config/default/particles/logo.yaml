@@ -1,0 +1,7 @@
+enabled: '1'
+url: index.php
+image: 'gantry-media://logo.png'
+link: '1'
+svg: ''
+text: Oxgard
+class: logo

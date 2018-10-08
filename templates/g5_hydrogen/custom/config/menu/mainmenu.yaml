@@ -1,0 +1,9 @@
+ordering:
+  homepage: ''
+items:
+  homepage:
+    id: 101
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    icon: 'fa fa-home fa-lg'

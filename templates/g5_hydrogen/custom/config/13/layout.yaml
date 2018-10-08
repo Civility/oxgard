@@ -1,0 +1,257 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: oxgard
+  timestamp: 1480408258
+layout:
+  /container-header/:
+    -
+      -
+        'sidebar-header 25': {  }
+      -
+        'position-header 75': {  }
+  /container-navigation/:
+    -
+      -
+        'navigation 38': {  }
+      -
+        'position-navigation 62': {  }
+  /main/:
+    -
+      - position-module-9311
+    -
+      - 'spacer-6249 20'
+      - 'custom-1104 60'
+      - 'spacer-1969 20'
+    -
+      - 'spacer-9283 20'
+      - 'sample-2309 16'
+      - 'spacer-7283 6'
+      - 'sample-7050 16'
+      - 'spacer-2373 6'
+      - 'sample-6015 16'
+      - 'spacer-7219 20'
+    -
+      - 'spacer-4892 20'
+      - 'sample-6500 16'
+      - 'spacer-7508 6'
+      - 'sample-9163 16'
+      - 'spacer-8474 6'
+      - 'sample-9635 16'
+      - 'spacer-8100 20'
+    -
+      - 'spacer-9684 20'
+      - 'custom-8023 60'
+      - 'spacer-9572 20'
+    -
+      - 'spacer-8706 20'
+      - 'position-module-8423 60'
+      - 'spacer-6871 20'
+    -
+      - totop-6036
+  /container-footer/:
+    -
+      -
+        'sidebar-footer 25': {  }
+      -
+        'position-footer 75': {  }
+  offcanvas: {  }
+structure:
+  sidebar-header:
+    type: section
+    subtype: aside
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: 1
+  position-header:
+    type: section
+    subtype: nav
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: 1
+  container-header:
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  position-navigation:
+    type: section
+    subtype: aside
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: 1
+  container-navigation:
+    attributes:
+      boxed: ''
+  main:
+    attributes:
+      boxed: '2'
+      class: ''
+  sidebar-footer:
+    type: section
+    subtype: aside
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: 1
+  position-footer:
+    type: section
+    subtype: nav
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: 1
+  container-footer:
+    attributes:
+      boxed: ''
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+content:
+  position-module-9311:
+    title: slider-top
+    attributes:
+      module_id: '92'
+      key: slider-top
+    block:
+      variations: 'center full-width'
+  custom-1104:
+    title: text
+    attributes:
+      html: '<h3>oxgard - инновационные системы безопасности</h3>'
+    block:
+      class: home_text
+      variations: center
+      extra:
+        -
+          style: 'background: #d90604;'
+  sample-2309:
+    title: 'Sample Content'
+    attributes:
+      image: 'gantry-media://block_nav/1.jpg'
+      headline: ''
+      description: ''
+      link: resheniya/14-aeroporty
+      linktext: Аэропорт
+      samples: {  }
+    block:
+      class: home_block
+      variations: center
+  sample-7050:
+    title: 'Sample Content'
+    attributes:
+      image: 'gantry-media://block_nav/2.jpg'
+      headline: ''
+      description: ''
+      link: resheniya/15-lechebnye-uchrezhdeniya
+      linktext: 'Лечебные Учереждения'
+      samples: {  }
+    block:
+      class: home_block
+      variations: center
+  sample-6015:
+    title: 'Sample Content'
+    attributes:
+      image: 'gantry-media://block_nav/3.jpg'
+      headline: ''
+      description: ''
+      link: resheniya/16-fitnes-kluby
+      linktext: 'Фитнес Клубы'
+      samples: {  }
+    block:
+      class: home_block
+      variations: center
+  sample-6500:
+    title: 'Sample Content'
+    attributes:
+      image: 'gantry-media://block_nav/4.jpg'
+      headline: ''
+      description: ''
+      link: resheniya/17-biznes-tsentry
+      linktext: 'Бизнес Центры'
+      samples: {  }
+    block:
+      class: home_block
+      variations: center
+  sample-9163:
+    title: 'Sample Content'
+    attributes:
+      image: 'gantry-media://block_nav/5.jpg'
+      headline: ''
+      description: ''
+      link: resheniya/18-proizvodstva
+      linktext: Производство
+      samples: {  }
+    block:
+      class: home_block
+      variations: center
+  sample-9635:
+    title: 'Sample Content'
+    attributes:
+      image: 'gantry-media://block_nav/6.jpg'
+      headline: ''
+      description: ''
+      link: resheniya/19-torgovlya
+      linktext: Торговля
+      samples: {  }
+    block:
+      class: home_block
+      variations: center
+  custom-8023:
+    title: text
+    attributes:
+      html: "<h3>галерея реализованных объектов</h3>\n"
+    block:
+      class: home_text
+      variations: center
+      extra:
+        -
+          style: 'background: #000;'
+  position-module-8423:
+    title: slider-bottom
+    attributes:
+      module_id: '100'
+      key: slider-bottom
+    block:
+      id: slicks
+      variations: center
+  totop-6036:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: totop-8112

@@ -1,0 +1,496 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: oxgard
+  timestamp: 1480408258
+layout:
+  /container-header/:
+    -
+      -
+        'sidebar-header 25':
+          -
+            - logo-6878
+      -
+        'position-header 75':
+          -
+            - 'custom-7428 40'
+            - 'custom-6880 10'
+            - 'position-module-3826 25'
+            - 'position-module-7183 25'
+          -
+            - menu-5599
+  /container-navigation/:
+    -
+      -
+        'navigation 38':
+          -
+            - contentarray-1557
+          -
+            - custom-2445
+          -
+            - custom-1218
+          -
+            - social-1783
+          -
+            - position-module-4724
+      -
+        'position-navigation 62': {  }
+  /main/:
+    -
+      - position-module-7956
+    -
+      - 'spacer-5418 20'
+      - 'custom-5377 60'
+      - 'spacer-2706 20'
+    -
+      - 'spacer-5301 20'
+      - 'sample-9042 24'
+      - 'spacer-9940 12'
+      - 'sample-6813 24'
+      - 'spacer-8334 20'
+    -
+      - 'spacer-4083 20'
+      - 'sample-8094 24'
+      - 'spacer-3937 12'
+      - 'sample-8479 24'
+      - 'spacer-1669 20'
+    -
+      - 'spacer-2285 20'
+      - 'custom-8317 60'
+      - 'spacer-6316 20'
+    -
+      - 'spacer-4942 20'
+      - 'position-module-1835 60'
+      - 'spacer-8444 20'
+    -
+      - totop-1323
+  /container-footer/:
+    -
+      -
+        'sidebar-footer 25':
+          -
+            - logo-8500
+          -
+            - copyright-4728
+      -
+        'position-footer 75':
+          -
+            - menu-4700
+          -
+            - 'custom-3726 25'
+            - 'custom-1458 25'
+            - 'custom-2807 25'
+            - 'custom-9568 25'
+          -
+            - custom-8405
+  offcanvas: {  }
+structure:
+  sidebar-header:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  position-header:
+    type: section
+    subtype: nav
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  container-header:
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      class: ''
+    block:
+      variations: 'nomarginall nopaddingall'
+  position-navigation:
+    type: section
+    subtype: aside
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: 1
+  container-navigation:
+    attributes:
+      boxed: ''
+  main:
+    attributes:
+      boxed: '2'
+      class: ''
+  sidebar-footer:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+    block:
+      variations: nopaddingall
+      fixed: '1'
+  position-footer:
+    type: section
+    subtype: nav
+    attributes:
+      class: ''
+    block:
+      variations: nopaddingall
+      fixed: '1'
+  container-footer:
+    attributes:
+      boxed: ''
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+content:
+  logo-6878:
+    attributes:
+      image: 'gantry-media://logo-es.png'
+    inherit:
+      outline: default
+      particle: logo-5230
+      include:
+        - block
+  custom-7428:
+    title: Telophone
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: custom-9008
+  custom-6880:
+    title: RsForm
+    attributes:
+      html: '<a href="/oxgard/es/contacto/contactenos"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>'
+    inherit:
+      outline: default
+      particle: custom-2084
+      include:
+        - block
+  position-module-3826:
+    title: Searce
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: position-module-8309
+  position-module-7183:
+    title: Languach
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: position-module-1181
+  menu-5599:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: menu-7825
+  contentarray-1557:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: contentarray-6079
+  custom-2445:
+    title: constructor
+    attributes:
+      html: "\t    <a class=\"btn btn-link btn-mini\" href=\"images\\service\\construktor_en\" target=\"_blank\">\n\t<i class=\"fa fa-pencil-square-o fa-4x  fa-fw\" aria-hidden=\"true\"></i>\n\t<p>Online<br/>Constructor</p>\n\t  </a>"
+    inherit:
+      outline: default
+      particle: custom-8315
+      include:
+        - block
+  custom-1218:
+    title: catalog
+    attributes:
+      html: "\t  \t  <a class=\"btn btn-link btn-mini\" href=\"images\\service\\catalog_en\" target=\"_blank\">\n<i class=\"fa fa-object-group fa-3x  fa-fw\" aria-hidden=\"true\"></i>\n<p>Online<br/>Catálogo</p>\n\t  </a>"
+    inherit:
+      outline: default
+      particle: custom-2278
+      include:
+        - block
+  social-1783:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: social-1677
+  position-module-4724:
+    title: collback
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: position-module-5257
+  position-module-7956:
+    title: slider-top
+    inherit:
+      outline: '13'
+      particle: position-module-9311
+      include:
+        - block
+        - attributes
+  spacer-5418:
+    inherit:
+      outline: '13'
+      include:
+        - attributes
+        - block
+      particle: spacer-6249
+  custom-5377:
+    title: text
+    attributes:
+      html: '<h3>Oxgard - sistemas de seguridad innovadoros</h3>'
+      twig: '1'
+      filter: '1'
+    inherit:
+      outline: '13'
+      particle: custom-1104
+      include:
+        - block
+  spacer-2706:
+    inherit:
+      outline: '13'
+      include:
+        - attributes
+        - block
+      particle: spacer-1969
+  spacer-5301:
+    inherit:
+      outline: '13'
+      include:
+        - attributes
+        - block
+      particle: spacer-9283
+  sample-9042:
+    title: 'Sample Content'
+    attributes:
+      image: 'gantry-media://block_nav/1.jpg'
+      headline: ''
+      description: ''
+      link: es/soluciones/28-aeropuertos
+      linktext: Aeropuertos
+      samples: {  }
+    inherit:
+      outline: '13'
+      particle: sample-2309
+      include:
+        - block
+  spacer-9940:
+    inherit:
+      outline: '13'
+      include:
+        - attributes
+        - block
+      particle: spacer-2373
+  sample-6813:
+    title: 'Sample Content'
+    attributes:
+      image: 'gantry-media://block_nav/3.jpg'
+      headline: ''
+      description: ''
+      link: es/soluciones/29-instalaciones-deportivas
+      linktext: 'Instalaciones deporivas'
+      samples: {  }
+    inherit:
+      outline: '13'
+      particle: sample-6015
+      include:
+        - block
+  spacer-8334:
+    inherit:
+      outline: '13'
+      include:
+        - attributes
+        - block
+      particle: spacer-7219
+  spacer-4083:
+    inherit:
+      outline: '13'
+      include:
+        - attributes
+        - block
+      particle: spacer-4892
+  sample-8094:
+    title: 'Sample Content'
+    attributes:
+      image: 'gantry-media://block_nav/4.jpg'
+      headline: ''
+      description: ''
+      link: es/soluciones/30-centros-de-negocios
+      linktext: 'Centros de negocios'
+      samples: {  }
+    inherit:
+      outline: '13'
+      particle: sample-6500
+      include:
+        - block
+  spacer-3937:
+    inherit:
+      outline: '13'
+      include:
+        - attributes
+        - block
+      particle: spacer-8474
+  sample-8479:
+    title: 'Sample Content'
+    attributes:
+      image: 'gantry-media://block_nav/6.jpg'
+      headline: ''
+      description: ''
+      link: es/soluciones/31-venta
+      linktext: Venta
+      samples: {  }
+    inherit:
+      outline: '13'
+      particle: sample-9635
+      include:
+        - block
+  spacer-1669:
+    inherit:
+      outline: '13'
+      include:
+        - attributes
+        - block
+      particle: spacer-8100
+  spacer-2285:
+    inherit:
+      outline: '13'
+      include:
+        - attributes
+        - block
+      particle: spacer-9684
+  custom-8317:
+    title: text
+    attributes:
+      html: '<h3>OXGARD - SISTEMAS DE SEGURIDAD INNOVADOROS</h3>'
+      twig: '1'
+      filter: '1'
+    inherit:
+      outline: '13'
+      particle: custom-8023
+      include:
+        - block
+  spacer-6316:
+    inherit:
+      outline: '13'
+      include:
+        - attributes
+        - block
+      particle: spacer-9572
+  spacer-4942:
+    inherit:
+      outline: '13'
+      include:
+        - attributes
+        - block
+      particle: spacer-8706
+  position-module-1835:
+    title: slider-bottom
+    attributes:
+      module_id: '108'
+      key: slider-bottom
+    inherit:
+      outline: '13'
+      particle: position-module-8423
+      include:
+        - block
+  spacer-8444:
+    inherit:
+      outline: '13'
+      include:
+        - attributes
+        - block
+      particle: spacer-6871
+  totop-1323:
+    inherit:
+      outline: '13'
+      include:
+        - attributes
+        - block
+      particle: totop-6036
+  logo-8500:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: logo-3900
+  copyright-4728:
+    attributes:
+      owner: 'S.L. «Vozrozhdenie» <br/>Todos los derechos reservados'
+    inherit:
+      outline: default
+      particle: copyright-6774
+      include:
+        - block
+  menu-4700:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: menu-9703
+  custom-3726:
+    title: Telophone
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: custom-1744
+  custom-1458:
+    title: RsForm
+    attributes:
+      html: "\t  \t  <a class=\"btn btn-link btn-mini\" href=\"/oxgard/es/contacto/contactenos\">\n<i class=\"fa fa-envelope fa-2x fa-fw\" aria-hidden=\"true\"></i>\n\t<p>Feedback Form</p>\n\t  </a>"
+    inherit:
+      outline: default
+      particle: custom-3954
+      include:
+        - block
+  custom-2807:
+    title: constructor
+    attributes:
+      html: "\t    <a class=\"btn btn-link btn-mini\" href=\"\"images\\service\\construktor_en\" target=\"_blank\"\">\n\t<i class=\"fa fa-pencil-square-o fa-4x  fa-fw\" aria-hidden=\"true\"></i>\n\t<p>Online<br/>Constructor</p>\n\t  </a>"
+    inherit:
+      outline: default
+      particle: custom-8650
+      include:
+        - block
+  custom-9568:
+    title: catalog
+    attributes:
+      html: "\t  \t  <a class=\"btn btn-link btn-mini\" href=\"\"images\\service\\catalog_en\" target=\"_blank\"\">\n<i class=\"fa fa-object-group fa-3x  fa-fw\" aria-hidden=\"true\"></i>\n<p>Online<br/>Catálogo</p>\n\t  </a>"
+    inherit:
+      outline: default
+      particle: custom-3995
+      include:
+        - block
+  custom-8405:
+    title: oferta
+    attributes:
+      html: '<i>Toda la información presentada en este sitio con respecto a las especificaciones, el costo de los bienes y servicios es para propósitos informativos y en ningún caso no es una oferta pública.</i>'
+    inherit:
+      outline: default
+      particle: custom-2086
+      include:
+        - block

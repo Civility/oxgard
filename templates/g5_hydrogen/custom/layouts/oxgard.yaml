@@ -1,0 +1,84 @@
+version: 2
+
+preset:
+  image: gantry-admin://images/layouts/default.png
+
+layout:
+  /container-header/:
+    -
+      - sidebar-header 25:
+        -
+          - logo
+
+      - position-header 75:
+        -
+          - custom
+          - custom
+          - module
+          - module
+        -
+          - menu
+
+  /container-navigation/:
+    -
+      - navigation 5:
+        -
+          - contentarray
+        -
+          - module
+        -
+          - module
+        - 
+          - social
+
+      - position-navigation 95:
+        -
+          - 
+  
+  /main/:
+    -
+      - system-messages
+    -
+      - sample
+    -
+      - system-content
+    -
+      - totop
+
+  /container-footer/:
+    -
+      - sidebar-footer 25:
+        -
+          - logo
+        -
+          - copyright
+
+      - position-footer 75:
+          - menu
+          - [custom, custom, sample, sample]
+
+  offcanvas:
+    -
+      - mobile-menu
+
+structure:
+  sidebar-header:
+    subtype: aside
+    block:
+      fixed: 1
+  position-header:
+    subtype: nav
+    block:
+      fixed: 1
+  position-navigation:
+    subtype: aside
+    block:
+      fixed: 1
+  sidebar-footer:
+    subtype: aside
+    block:
+      fixed: 1
+  position-footer:
+    subtype: nav
+    block:
+      fixed: 1

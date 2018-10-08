@@ -1,0 +1,106 @@
+name: '13'
+timestamp: 1484645496
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: oxgard
+  timestamp: 1480408258
+positions: {  }
+sections:
+  sidebar-header: Sidebar-header
+  position-navigation: Position-navigation
+  sidebar-footer: Sidebar-footer
+  position-header: Position-header
+  position-footer: Position-footer
+  navigation: Navigation
+  main: Main
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-8591: Logo
+    logo-1857: Logo
+  custom:
+    custom-1509: Telophone
+    custom-3926: RsForm
+    custom-5947: constructor
+    custom-9706: catalog
+    custom-1104: text
+    custom-8023: text
+    custom-5213: Telophone
+    custom-4976: RsForm
+    custom-5839: constructor
+    custom-2581: catalog
+    custom-5742: oferta
+  module:
+    position-module-7392: Searce
+    position-module-6534: Languach
+    position-module-3884: price
+    position-module-8961: collback
+    position-module-9311: slider-top
+    position-module-8423: slider-bottom
+  menu:
+    menu-7278: Menu
+    menu-5880: Menu
+  contentarray:
+    contentarray-5551: Contentarray
+  social:
+    social-5506: Social
+  spacer:
+    spacer-6249: Spacer
+    spacer-1969: Spacer
+    spacer-9283: Spacer
+    spacer-7283: Spacer
+    spacer-2373: Spacer
+    spacer-7219: Spacer
+    spacer-4892: Spacer
+    spacer-7508: Spacer
+    spacer-8474: Spacer
+    spacer-8100: Spacer
+    spacer-9684: Spacer
+    spacer-9572: Spacer
+    spacer-8706: Spacer
+    spacer-6871: Spacer
+  sample:
+    sample-2309: 'Sample Content'
+    sample-7050: 'Sample Content'
+    sample-6015: 'Sample Content'
+    sample-6500: 'Sample Content'
+    sample-9163: 'Sample Content'
+    sample-9635: 'Sample Content'
+  totop:
+    totop-6036: Totop
+  copyright:
+    copyright-8589: Copyright
+  mobile-menu:
+    mobile-menu-3881: Mobile-menu
+inherit:
+  default:
+    sidebar-header: sidebar-header
+    logo-8591: logo-5230
+    position-header: position-header
+    custom-1509: custom-9008
+    custom-3926: custom-2084
+    position-module-7392: position-module-8309
+    position-module-6534: position-module-1181
+    menu-7278: menu-7825
+    navigation: navigation
+    contentarray-5551: contentarray-6079
+    custom-5947: custom-8315
+    custom-9706: custom-2278
+    position-module-3884: position-module-2478
+    social-5506: social-1677
+    position-module-8961: position-module-5257
+    position-navigation: position-navigation
+    totop-6036: totop-8112
+    sidebar-footer: sidebar-footer
+    logo-1857: logo-3900
+    copyright-8589: copyright-6774
+    position-footer: position-footer
+    menu-5880: menu-9703
+    custom-5213: custom-1744
+    custom-4976: custom-3954
+    custom-5839: custom-8650
+    custom-2581: custom-3995
+    custom-5742: custom-2086
+    offcanvas: offcanvas
+    mobile-menu-3881: mobile-menu-1074

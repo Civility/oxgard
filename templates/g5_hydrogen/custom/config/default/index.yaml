@@ -1,0 +1,55 @@
+name: default
+timestamp: 1483978683
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: oxgard
+  timestamp: 1480408258
+positions: {  }
+sections:
+  sidebar-header: Sidebar-header
+  position-navigation: Position-navigation
+  sidebar-footer: Sidebar-footer
+  position-header: Position-header
+  position-footer: Position-footer
+  navigation: Navigation
+  main: Main
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-5230: Logo
+    logo-3900: Logo
+  custom:
+    custom-9008: Telophone
+    custom-2084: RsForm
+    custom-8315: constructor
+    custom-2278: catalog
+    custom-1744: Telophone
+    custom-3954: RsForm
+    custom-8650: constructor
+    custom-3995: catalog
+    custom-2086: oferta
+  module:
+    position-module-8309: Searce
+    position-module-1181: Languach
+    position-module-2478: price
+    position-module-5257: collback
+    position-module-7248: Breadcrumbs
+  menu:
+    menu-7825: Menu
+    menu-9703: Menu
+  contentarray:
+    contentarray-6079: Contentarray
+  social:
+    social-1677: Social
+  messages:
+    system-messages-5011: 'System Messages'
+  content:
+    system-content-7550: 'Page Content'
+  totop:
+    totop-8112: Totop
+  copyright:
+    copyright-6774: Copyright
+  mobile-menu:
+    mobile-menu-1074: Mobile-menu
+inherit: {  }

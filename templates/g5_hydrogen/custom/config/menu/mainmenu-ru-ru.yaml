@@ -1,0 +1,42 @@
+ordering:
+  home-ru-ru: ''
+  proizvodstvo:
+    sertifikaty: ''
+    realizovannye-ob-ekty: ''
+  novosti: ''
+  produktsiya: ''
+  prajs-list: ''
+  resheniya: ''
+  kontakty:
+    gde-kupit: ''
+    zadat-vopros: ''
+    podderzhka: ''
+items:
+  home-ru-ru:
+    id: 110
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    icon: 'fa fa-home fa-lg'
+  proizvodstvo:
+    id: 124
+  proizvodstvo/sertifikaty:
+    id: 149
+  proizvodstvo/realizovannye-ob-ekty:
+    id: 132
+  novosti:
+    id: 125
+  produktsiya:
+    id: 126
+  prajs-list:
+    id: 133
+  resheniya:
+    id: 127
+  kontakty:
+    id: 128
+  kontakty/gde-kupit:
+    id: 134
+  kontakty/zadat-vopros:
+    id: 130
+  kontakty/podderzhka:
+    id: 129

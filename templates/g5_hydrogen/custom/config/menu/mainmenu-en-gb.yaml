@@ -1,0 +1,128 @@
+ordering:
+  home-en-gb: ''
+  profile:
+    certificates: ''
+    references: ''
+  news: ''
+  products:
+    turnstiles:
+      tripods:
+        cube-01: ''
+        cube-02: ''
+        cube-03: ''
+        praktika-t-01: ''
+        praktika-t-02: ''
+        praktika-t-02-a: ''
+        praktika-t-03: ''
+        praktika-t-03-m: ''
+      speedgates:
+        praktika-t-04: ''
+        praktika-t-05: ''
+        praktika-t-06: ''
+      full-height-turnstile:
+        praktika-t-10: ''
+        praktika-t-10-h: ''
+        praktika-t-10-m: ''
+        praktika-t-10-mh: ''
+        praktika-t-10-mhy: ''
+    swing-gates:
+      k-11-mechanical-swing-gate: ''
+      12-swing-gate-with-magnetic-release: ''
+      k-13-electromagnetic-swing-gate: ''
+      k-15-electromechanical-swing-gate: ''
+      15-electromechanical-swing-gate: ''
+    card-collector: ''
+    half-height-barriers: ''
+    panel-praktika: ''
+  solutions: ''
+  contacts:
+    where-to-buy: ''
+    ask-us-a-question: ''
+    support: ''
+items:
+  profile:
+    id: 140
+  profile/certificates:
+    id: 131
+  profile/references:
+    id: 146
+  news:
+    id: 141
+  products:
+    id: 142
+    columns:
+      - 100
+  products/swing-gates:
+    id: 209
+  products/swing-gates/k-11-mechanical-swing-gate:
+    id: 229
+  products/swing-gates/12-swing-gate-with-magnetic-release:
+    id: 230
+  products/swing-gates/k-13-electromagnetic-swing-gate:
+    id: 231
+  products/swing-gates/k-15-electromechanical-swing-gate:
+    id: 232
+  products/swing-gates/15-electromechanical-swing-gate:
+    id: 233
+  products/card-collector:
+    id: 210
+  products/half-height-barriers:
+    id: 211
+  products/panel-praktika:
+    id: 212
+  products/turnstiles:
+    id: 205
+  products/turnstiles/tripods:
+    id: 206
+  products/turnstiles/tripods/cube-01:
+    id: 213
+  products/turnstiles/tripods/cube-02:
+    id: 214
+  products/turnstiles/tripods/cube-03:
+    id: 215
+  products/turnstiles/tripods/praktika-t-01:
+    id: 216
+  products/turnstiles/tripods/praktika-t-02:
+    id: 217
+  products/turnstiles/tripods/praktika-t-02-a:
+    id: 218
+  products/turnstiles/tripods/praktika-t-03:
+    id: 219
+  products/turnstiles/tripods/praktika-t-03-m:
+    id: 220
+  products/turnstiles/speedgates:
+    id: 207
+  products/turnstiles/speedgates/praktika-t-04:
+    id: 221
+  products/turnstiles/speedgates/praktika-t-05:
+    id: 222
+  products/turnstiles/speedgates/praktika-t-06:
+    id: 223
+  products/turnstiles/full-height-turnstile:
+    id: 208
+  products/turnstiles/full-height-turnstile/praktika-t-10:
+    id: 224
+  products/turnstiles/full-height-turnstile/praktika-t-10-h:
+    id: 225
+  products/turnstiles/full-height-turnstile/praktika-t-10-m:
+    id: 226
+  products/turnstiles/full-height-turnstile/praktika-t-10-mh:
+    id: 227
+  products/turnstiles/full-height-turnstile/praktika-t-10-mhy:
+    id: 228
+  solutions:
+    id: 144
+  contacts:
+    id: 143
+  contacts/where-to-buy:
+    id: 147
+  contacts/ask-us-a-question:
+    id: 148
+  contacts/support:
+    id: 145
+  home-en-gb:
+    id: 108
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    icon: 'fa fa-home fa-lg'
